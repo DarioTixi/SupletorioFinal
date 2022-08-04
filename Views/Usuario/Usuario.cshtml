@@ -1,0 +1,527 @@
+﻿
+@{
+    ViewBag.Title = "Usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Modal Agregar Usuario -->
+
+<div class="modal" id="ModalAddUsuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Agregar Usuario </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalAddUsuario')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+
+                        <div class="form-group">
+                            <label> Correo: </label>
+                            <input class="form-control" id="Correo1" min="1"
+                                   type="email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label> Password: </label>
+                            <input type="password" class="form-control" min="8" maxlength="16" id="Password1" value="" />
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-select form-control " id="idRol" required>
+                                <option selected value="0" >Seleccione el Rol</option>
+                                <option value="1">Administrador</option>
+                                <option value="2">Empleado</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Agregar()" class="btn btn-success" data-dismiss="modal">Agregar Usuario</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Eliminar Usuario -->
+<div class="modal" id="ModalEliminarUsuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Eliminar Usuario </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalEliminarUsuario')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+
+                        <div class="form-group">
+                            <label> Correo: </label>
+                            <input class="form-control" disabled id="Correo3" min="1"
+                                   type="email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label> Rol: </label>
+                            <input type="text" disabled class="form-control" id="idRol3" value="" />
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Eliminar()" class="btn btn-success" data-dismiss="modal">Eliminar Usuario</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal Editar Usuario -->
+
+<div class="modal" id="ModalEditarUsuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Editar Usuario </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalEditarUsuario')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+
+                        <div class="form-group">
+                            <label> Id: </label>
+                            <input class="form-control" disabled id="Id2" min="1"
+                                   type="email" />
+                        </div>
+
+                          <div class="form-group">
+                            <label> Correo: </label>
+                            <input class="form-control" id="Correo2" min="1"
+                                   type="email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label> Password: </label>
+                            <input type="password" class="form-control" min="8" maxlength="16" id="Password2" value="" />
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-select" id="idRol2" required>
+                                <option selected>Seleccione el Rol</option>
+                                <option value="1">Administrador</option>
+                                <option value="2">Empleado</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label> Activo: </label>
+                            <input type="number" class="form-control" min="0" max="1" maxlength="1" id="estado2" value="" />
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Editar()" class="btn btn-success" data-dismiss="modal">Editar Usuario</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@if (ViewBag.UsuarioAdm == "0")
+{
+    <button class="btn " style="margin-top:20px" onclick="MostrarModalAgregar()">Agregar Usuario</button>
+}
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-6">
+        <div class="text-center">  <h2 style="color:black"> <strong> Usuarios </strong> </h2>    </div>
+        <div class="table-responsive">
+            <table id="TableUsuarios" class="table table-striped" width="100%" style="background-color:darkgray">
+                <thead style="background-color: #000000; color: white;">
+                    <tr>
+                        <th>ID</th>
+                        <th>Correo</th>
+                        <th>Rol</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.js"></script>
+<script type="text/javascript">
+
+    $.extend(true, $.fn.dataTable.defaults, {
+        "language": {
+            "decimal": ",",
+            "thousands": ".",
+            "info": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+            "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+            "infoPostFix": "",
+            "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+            "loadingRecords": "Cargando...",
+            "lengthMenu": "Mostrar _MENU_ registros",
+            "paginate": {
+                "first": "Primero",
+                "last": "Último",
+                "next": "Siguiente",
+                "previous": "Anterior"
+            },
+            "processing": "Procesando...",
+            "search": "Buscar:",
+            "searchPlaceholder": "Término de búsqueda",
+            "zeroRecords": "No se encontraron resultados",
+            "emptyTable": "Ningún dato disponible en esta tabla",
+            "aria": {
+                "sortAscending": ": Activar para ordenar la columna de manera ascendente",
+                "sortDescending": ": Activar para ordenar la columna de manera descendente"
+            },
+            //only works for built-in buttons, not for custom buttons
+            "buttons": {
+                "create": "Nuevo",
+                "edit": "Cambiar",
+                "remove": "Borrar",
+                "copy": "Copiar",
+                "csv": "fichero CSV",
+                "excel": "tabla Excel",
+                "pdf": "documento PDF",
+                "print": "Imprimir",
+                "colvis": "Visibilidad columnas",
+                "collection": "Colección",
+                "upload": "Seleccione fichero...."
+            },
+            "select": {
+                "rows": {
+                    _: '%d filas seleccionadas',
+                    0: 'clic fila para seleccionar',
+                    1: 'una fila seleccionada'
+                }
+            }
+        }
+    });
+
+     var TableUsuario;
+    var Usuario = {};
+    var ListaUsuarios = [];
+    var regexPass = "^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@(')')'$!%?&])[A-Za-z\@('@')')$!%?&]{8,}$";
+    var correo   = "" ;
+    var password = "" ;
+    var idRol = "";
+    var estado = 0;
+
+
+    //var regexEmail  = "/^(([^<>()[\]\\.,;:\s"]+(\.[^<>()[\]\\.,;:\s"]+)*)|(".+"))((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/"
+
+    $(document).ready(function () {
+
+
+        TableUsuario = $('#TableUsuarios').DataTable({
+            ordering: false,
+            data: [],
+            columns:
+                [
+                    { "data": "id" },
+                    { "data": "email" },
+                   {
+                        "data": null,
+                        "render": function (data) {
+                                if (data.idRol == 1) {
+                                    return `Administrador`
+                                }
+                                return `Empleado`
+                        }
+                    },
+                    {
+                        "data": null, "visible":false,
+                        "render": function (data, type, row) {
+                            if (data.estado == 1) {
+                                return `<span class="badge bg-info">Activo</span>`;
+                            }
+                            return `<span class="badge bg-danger">Inactivo</span>`
+                        }
+
+                    },
+                    {
+                        "data": null,
+                        "render": function (data) {
+
+                            if ("@ViewBag.UsuarioAdm" == "0") {
+                                if (data.estado == 1) {
+                                    return `<i id="editarUsuario"  class="btn glyphicon glyphicon-pencil" style="color:#0b69ad"></i>` +
+                                        `<button id="eliminarUsuario" class="btn glyphicon glyphicon-trash" style="color:#0b69ad"></button>`
+                                }
+                                return `<i id="editarUsuario"  class="btn glyphicon glyphicon-pencil" style="color:#0b69ad"></i>` +
+                                    `<button id="eliminarUsuario" disabled class="btn glyphicon glyphicon-trash" style="color:#0b69ad"></button>`
+                            } else {
+                                return `<i id="editarUsuario" disabled  class="btn glyphicon glyphicon-pencil" style="color:#0b69ad"></i>` +
+                                    `<button id="eliminarUsuario" disabled class="btn glyphicon glyphicon-trash" style="color:#0b69ad"></button>`
+
+                            }
+
+
+
+                        }
+                    },
+                ],
+        });
+
+        $("#TableUsuarios tbody").on("click", "#editarUsuario", function () {
+            var data = TableUsuario.row($(this).parents('tr')).data();
+            Usuario = data;
+            console.log(data);
+
+            $("#ModalEditarUsuario").show();
+            $("#Id2").val(data.id);
+            $("#Correo2").val(data.email);
+            $("#idRol2").val(data.idRol);
+            $("#estado2").val(data.estado);
+
+        });
+
+
+        $("#TableUsuarios tbody").on("click", "#eliminarUsuario", function () {
+            var data = TableUsuario.row($(this).parents('tr')).data();
+            var nameRole = data.idRol == 1 ? 'Administrador' : 'Empleado';
+            Usuario = data;
+
+            console.log(Usuario);
+
+            $("#ModalEliminarUsuario").show();
+            $("#Correo3").val(data.email);
+            $("#idRol3").val(nameRole);
+
+        });
+
+                CargarUsuarios();
+
+    });
+
+    function SweetAlertMensaje(Titulo, Texto, Icono) {
+        swal({
+            title: Titulo,
+            text: Texto,
+            icon: Icono,
+            dangerMode: true,
+        });
+
+    }
+
+
+    function resetFields() {
+        $("#Correo1").val('');
+        $("#Password1").val('');
+        $("#idRol").val(0);
+
+    }
+
+    function Agregar() {
+        Usuario = {};
+
+
+        correo =   $("#Correo1").val();
+        password = $("#Password1").val();
+        idRol =    $("#idRol").val();
+
+        if (correo == "") {
+            SweetAlertMensaje("Correo", "Ingrese un correo electronico válido", 'warning');
+            return;
+        }
+
+
+        //const hasMatchPassword = password.match(regexPass);
+        //console.log(hasMatchPassword);
+        //if (!hasMatchPassword) {
+        //    SweetAlertMensaje("Contraseña", "La contraseña debe tener mínimo 8 caracteres, una letra mayúscula, minúscula y un numero", 'warning');
+        //    return;
+        //}
+
+        if (idRol != 1 && idRol != 2) {
+            SweetAlertMensaje("Rol", "Escoga un rol", 'warning');
+            return;
+        }
+
+
+
+        Usuario.email = correo;
+        Usuario.password = password;
+        Usuario.idRol= idRol;
+
+        $.ajax({
+            url: "@Url.Content("~/Usuario/AgregarUsuario")",
+            dataType: 'json',
+             type: 'POST',
+             data: Usuario ,
+            success: function (data) {
+                console.log(data)
+                 if (!data.Datos) {
+                    return SweetAlertMensaje("Error", data.Error, "error");
+                 }
+                SweetAlertMensaje("Usuario", "Usuario Agregado", 'success');
+                resetFields();
+                 CerrarModal("ModalAddUsuario");
+                 CargarUsuarios();
+            },
+             error: function (err) {
+                SweetAlertMensaje("Error","Error al Agregar Usuario","error");
+            }
+        });
+    }
+
+    function Eliminar(){
+
+        console.log(Usuario);
+         $.ajax({
+            url: "@Url.Content("~/Usuario/EliminarUsuario")",
+            dataType: 'json',
+             type: 'POST',
+             data: Usuario ,
+             success: function (data) {
+
+                 if (!data.Datos) {
+                 return   SweetAlertMensaje("Error", data.Error, "error");
+                 }
+
+                 SweetAlertMensaje("Usuario", "Usuario Eliminado", 'success');
+
+                 CerrarModal("ModalEliminarUsuario");
+                 CargarUsuarios();
+
+            },
+             error: function (err) {
+                SweetAlertMensaje("Error","Error al Eliminar Usuario","error");
+            }
+        });
+
+
+    }
+
+    function MostrarModalAgregar() {
+        $('#ModalAddUsuario').show();
+    }
+
+    function Editar() {
+
+
+        id = $("#Id2").val();
+        correo = $("#Correo2").val();
+        password = $("#Password2").val();
+        idRol = $("#idRol2").val();
+        let estado = $("#estado2").val();
+
+        if (correo == "") {
+            SweetAlertMensaje("Correo", "Ingrese un correo electronico válido", 'warning');
+            return;
+        }
+
+        Usuario.password = '';
+
+        if (password.length > 1) {
+            const hasMatchPassword = password.match(regexPass);
+            if (!hasMatchPassword) {
+                SweetAlertMensaje("Contraseña", "La contraseña debe tener mínimo 8 caracteres, una letra mayúscula, minúscula y un carater especial", 'warning');
+                return;
+            }
+            else {
+                Usuario.password = password;
+            }
+        }
+
+
+        if (idRol != 1 && idRol != 2) {
+            SweetAlertMensaje("Rol", "Escoga un rol", 'warning');
+            return;
+        }
+
+
+        if (estado != 0 && estado!= 1) {
+            SweetAlertMensaje("Estado", "Escoja un valor entre 0 (inactivo) y 1 (activo)", 'warning');
+            return;
+        }
+
+
+        Usuario.id = id;
+        Usuario.email = correo;
+        Usuario.idRol = idRol;
+        Usuario.estado = estado;
+
+        console.log(Usuario);
+
+         $.ajax({
+            url: "@Url.Content("~/Usuario/EditarUsuario")",
+            dataType: 'json',
+             type: 'POST',
+             data: Usuario ,
+             success: function (data) {
+
+                if (!data.Datos) {
+                    return SweetAlertMensaje("Error", data.Error, "error");
+                 }
+                 SweetAlertMensaje("Usuario", "Usuario Modificado", 'success');
+                 CerrarModal("ModalEditarUsuario");
+                 CargarUsuarios();
+            },
+             error: function (err) {
+                SweetAlertMensaje("Error","Error al Editar Usuario","error");
+            }
+        });
+
+
+
+
+
+    }
+
+
+    function CerrarModal(NombreModal) {
+
+        $("#" + NombreModal).hide();
+    }
+
+    function CargarUsuarios() {
+        $.ajax({
+            url: "@Url.Content("~/Usuario/ObtenerUsuarios")",
+            dataType: 'json',
+            type: 'POST',
+            success: function (data) {
+                if (data.Error != null ) {
+                    SweetAlertMensaje("Error", data.Error, "error");
+                } else {
+                    TableUsuario.clear().draw();
+                    TableUsuario.rows.add(data.Datos).draw();
+                }
+            },
+            error: function (err) {
+                SweetAlertMensaje("Error","Error al Cargar Usuarios","error");
+            }
+        });
+    }
+
+</script>
+

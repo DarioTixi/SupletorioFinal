@@ -1,0 +1,113 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+body {
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+}
+
+    body::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: url(Img/backgroind.jpg) no-repeat center;
+        background-size: cover;
+        z-index: -100;
+        opacity: 0.4;
+    }
+
+.card {
+    position: relative;
+    max-width: 340px;
+    box-shadow: 0 0 45px 0 rgb(0, 0, 0, 0.35);
+    background: url(Img/backgroind.jpg) top;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.image-container {
+    height: 140px;
+}
+
+.welcome {
+    position: relative;
+    height: 80px;
+}
+
+.oblique {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 130%;
+    transform: rotate(-5deg);
+}
+
+.welcome p {
+    background: #f74d4d;
+    height: 80px;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+form {
+    padding: 2rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    form .form-control {
+        padding-bottom: 1.5rem;
+        width:100%;
+    }
+
+.form-control input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 1.9rem;
+    border-bottom: 1px solid #aaa;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.form-control label {
+    border: none;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+    height: 1.9rem;
+    background: #f74d4d;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}

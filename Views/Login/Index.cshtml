@@ -1,0 +1,120 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/Content/login.css")
+</head>
+<body>
+    <div class="card">
+        <div class="image-container"></div>
+        <div class="welcome">
+            <div class="oblique"> </div>
+            <p>Bienvenido</p>
+        </div>
+
+        <form id="loginForm">
+            <div class="form-control">
+                <label for="lblUsername">Correo</label>
+                <input type="text" id="email" placeholder="Correo">
+                <div class="focused-line"></div>
+            </div>
+            <div class="form-control">
+                <label for="lblPassword">Contraseña</label>
+                <input type="password" id="password" placeholder="Contraseña">
+                <div class="focused-line"></div>
+            </div>
+            <button type="button" onclick="Auth()">Iniciar Sesión</button>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.js"></script>
+
+    <script type="text/javascript">
+
+        var Usuario = {};
+        var email ;
+        var password ;
+
+
+        //$("#loginForm").submit(function (event) {
+        //    console.log("entro al metodo")
+        //    //Auth();
+        //    //event.preventDefault();
+        //});
+
+
+
+        function SweetAlertMensaje(Titulo, Texto, Icono) {
+            swal({
+                title: Titulo,
+                text: Texto,
+                icon: Icono,
+                dangerMode: true,
+            });
+
+        }
+
+        function Auth() {
+
+            if (!validarCampos()) return;
+
+            Usuario.email = email ;
+            Usuario.password = password;
+
+            console.log(Usuario);
+            $.ajax({
+            data: Usuario,
+            url: "@Url.Content("~/Login/validarCredenciales")",
+            dataType: 'json',
+            type: 'POST',
+                success: function (data) {
+
+                    if (data != null) {
+                         var url = '@Url.Action("Index", "Inicio")';
+                         return window.location.href = url;
+                    }
+
+                    SweetAlertMensaje("Error", "Correo y/o Contraseña Incorrectos", "error");
+            },
+                error: function (err) {
+                SweetAlertMensaje("Error",err,"error");
+            }
+        });
+
+
+        }
+
+        function validarCampos() {
+
+            email = $("#email").val();
+            password = $("#password").val();
+
+            if (email == "") {
+                SweetAlertMensaje("Campos Vacíos", "Ingrese el correo", 'warning');
+                return false;
+            }
+            if (password == "") {
+                SweetAlertMensaje("Campos Vacíos", "Ingrese la contraseña", 'warning');
+                return false;
+            }
+            console.log(email)
+            console.log(password)
+
+            return true;
+
+        }
+
+
+
+    </script>
+</body>
+
+</html >

@@ -1,0 +1,695 @@
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\csc.exe
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ext_airon_maldonado\source\repos\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+C:\Users\DELL\Downloads\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+D:\AplicacionesMoviles\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+C:\Users\dario\Desktop\jjj\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.AssemblyReference.cache
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+C:\Users\dario\Desktop\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+D:\Users\chris\Documentos\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csprojAssemblyReference.cache
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.AssemblyReference.cache
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+C:\Users\btoalumbo\Documents\MyApps\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll.config
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\FacturaWeb.pdb
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.exe.config
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csc.rsp
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.exe.config
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\csi.rsp
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.AppContext.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Console.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Http.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.exe.config
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\vbc.rsp
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Razor.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\WebGrease.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Helpers.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Mvc.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Optimization.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.Razor.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Newtonsoft.Json.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Antlr3.Runtime.pdb
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csprojAssemblyReference.cache
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.dll
+D:\Users\chris\Documentos\Factura Web\Factura Web\FacturaWeb\FacturaWeb\obj\Debug\FacturaWeb.pdb
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\FacturaWeb.dll.config
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\FacturaWeb.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\FacturaWeb.pdb
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\csc.exe
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\csc.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\csc.rsp
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\csi.exe
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\csi.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\csi.rsp
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Console.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\vbc.exe
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\vbc.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\vbc.rsp
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Antlr3.Runtime.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Newtonsoft.Json.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Helpers.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Mvc.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Optimization.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Razor.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.WebPages.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\WebGrease.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Helpers.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Mvc.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Optimization.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.Razor.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.WebPages.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Newtonsoft.Json.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.WebPages.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\obj\Debug\FacturaWeb.csproj.AssemblyReference.cache
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\obj\Debug\FacturaWeb.csproj.CoreCompileInputs.cache
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\obj\Debug\FacturaWeb.csproj.CopyComplete
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\obj\Debug\FacturaWeb.dll
+C:\Users\btoalumbo\Documents\MyApps\Nuevo\FacturaWeb\obj\Debug\FacturaWeb.pdb

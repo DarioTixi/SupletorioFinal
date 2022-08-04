@@ -1,0 +1,634 @@
+﻿
+@{
+    ViewBag.Title = "Facturar";
+}
+
+
+
+<!-- Modal Clientes -->
+<div class="modal" id="ModalClientes" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Lista de Clientes </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalClientes')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table id="TableClientes" width="100%" class="table table-striped">
+                        <thead style="background-color:black; color:white">
+                            <tr>
+                                <th>#</th>
+                                <th>ID</th>
+                                <th>Cédula</th>
+                                <th>Cliente</th>
+                                <th>Teléfono</th>
+                                <th>Dirección</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="CerrarModal('ModalClientes')" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Cantidad -->
+<div class="modal" id="ModalCantidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Cantidad </strong>  </h5>
+                <button type="button" onclick="CerrarCantidad()" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="form-group">
+                            <label class="control-label"> Producto: </label>
+                            <input type="text" class="form-control" disabled id="Producto" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label> Precio: </label>
+
+                            <input type="text" class="form-control" disabled id="Precio" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label> Stock: </label>
+
+                            <input type="text" class="form-control" disabled id="Stock" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label> Cantidad: </label>
+                            <input class="form-control" id="Cantidad" min="1"
+                                   onkeypress="return event.charCode >= 48"
+                                   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                   type="number"
+                                   maxlength="4" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Agregar()" class="btn btn-success" data-dismiss="modal">Agregar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Modal Productos -->
+<div class="modal" id="ModalProductos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Lista de Productos </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalProductos')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table id="TableProductos" width="100%" class="table table-hover">
+                        <thead style="background-color:black; color:white">
+                            <tr>
+                                <th>#</th>
+                                <th>ID</th>
+                                <th>Producto</th>
+                                <th>Stock</th>
+                                <th>Precio U.</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="CerrarModal('ModalProductos')" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card" style="margin-top: 20px;">
+                <div class="card-body p-0">
+                    <div class="row p-5">
+                        <div class="col-md-6">
+                            <img style="width:200px; height:150px" src="~/Content/Img/Logo2.png">
+                        </div>
+                        <div class="col-md-6 text-right">
+                             <p class="text-muted text-capitalize">@DateTime.Now.ToLongDateString()</p>
+                        </div>
+                    </div>
+                    <hr class="my-5">
+                    <div class="row pb-5 p-5">
+                        <div class="col-md-6 col-xs-12 col-sm-12">
+                            <p class="font-weight-bold mb-4"><strong>Información del Cliente </strong> </p>
+                          <strong>Cedula:</strong> <p id="RUC" class="mb-1"></p>
+                          <strong>Nombres y Apellidos:</strong><p id="CLIENTE" class="mb-1"></p>
+                          <strong>   Dirección:</strong> <p id="DIRECCION" class="mb-1"></p>
+                          <strong>Teléfono:</strong><p id="TELEFONO" class="mb-1"></p>
+
+                            <p class="mb-1"><button type="button" onclick="Clientes()" class="btn btn-success"> <i class="glyphicon glyphicon-user"></i> Clientes </button> </p>
+                        </div>
+
+                        <div class="col-md-6 col-xs-12 col-sm-12 text-right">
+                            <p class="font-weight-bold mb-4"><strong> Información General </strong></p>
+                            <p class="mb-1"><span ><strong> RUC:</strong> </span>1700000001</p>
+                            <p class="mb-1"><span ><strong>Nombre:</strong> </span>Comercial Basantes</p>
+                            <p class="mb-1"><span ><strong>Dirección:</strong> </span> Isla Santiago, Quito 170138</p>
+                            <p class="mb-1"><span ><strong>Teléfono:</strong> </span> 0983475261</p>
+                            <p class="mb-1">  <button id="btnProductos" onclick="Productos()" type="button" class="btn btn-success"> <i class="glyphicon glyphicon-folder-open"></i> Productos </button> </p>
+                        </div>
+                    </div>
+                    <hr class="my-5">
+                    <div class="row p-5">
+                        <div class="col-md-12">
+                            <table id="TablaFacturar" class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th style="width:10%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center"></th>
+                                        <th style="width:10%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center">#</th>
+                                        <th style="width:5%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center">ID</th>
+                                        <th style="width:35%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center">Producto</th>
+                                        <th style="width:10%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center">Cantidad</th>
+                                        <th style="width:10%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center">Precio U.</th>
+                                        <th style="width:20%" class="border-0 text-uppercase small font-weight-bold colorcabecera text-center">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row-reverse bg-dark text-white p-4">
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-3 col-lg-4">
+                                <div class="py-3 px-5 text-center">
+                                    <div class="mb-2"><strong> SubTotal </strong> </div>
+                                    <div id="subtotal" class="h4 font-weight-light"> 0.00</div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-3 col-lg-4">
+                                <div class="py-3 px-5 text-center">
+                                    <div class="mb-2"><strong> IVA</strong> </div>
+                                    <div id="iva" class="h4 font-weight-light"> 0.00</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3 col-lg-4 mb-2">
+                                <div class="py-3 px-5 text-center">
+                                    <div class="mb-2"> <strong> Total </strong> </div>
+                                    <div id="total" class="h4 font-weight-light">0.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-5">
+                    <div class="d-flex text-white p-4 ">
+                        <div class="py-3 px-5 text-center">
+                            <button class="btn btn-danger" onclick="Cancelar()"> <i class="glyphicon glyphicon-remove"></i>  Cancelar</button>
+                            <button id="BtnGuardar" onclick="GuardarFactura()" class="btn btn-success" ><i class="glyphicon glyphicon-ok"></i> Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.js"></script>
+
+<script type="text/javascript">
+
+    $.extend(true, $.fn.dataTable.defaults, {
+        "language": {
+            "decimal": ",",
+            "thousands": ".",
+            "info": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+            "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+            "infoPostFix": "",
+            "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+            "loadingRecords": "Cargando...",
+            "lengthMenu": "Mostrar _MENU_ registros",
+            "paginate": {
+                "first": "Primero",
+                "last": "Último",
+                "next": "Siguiente",
+                "previous": "Anterior"
+            },
+            "processing": "Procesando...",
+            "search": "Buscar:",
+            "searchPlaceholder": "Término de búsqueda",
+            "zeroRecords": "No se encontraron resultados",
+            "emptyTable": "Ningún dato disponible en esta tabla",
+            "aria": {
+                "sortAscending": ": Activar para ordenar la columna de manera ascendente",
+                "sortDescending": ": Activar para ordenar la columna de manera descendente"
+            },
+            
+
+            "select": {
+                "rows": {
+                    _: '%d filas seleccionadas',
+                    0: 'clic fila para seleccionar',
+                    1: 'una fila seleccionada'
+                }
+            }
+        }
+    });
+
+
+
+    var TableCliente;
+    var TableProducto;
+    var TableFacturar;
+
+
+
+    // Informacion de la Factura
+    var Cliente = null;
+    var Producto = null;
+    var ListaProductos = [];
+
+    var CambiarProducto = 1;
+    var AuxData = null;
+
+    function SweetAlertMensaje(Titulo, Texto, Icono) {
+        swal({
+            title: Titulo,
+            text: Texto,
+            icon: Icono,
+            dangerMode: true,
+        });
+
+    }
+
+    function CerrarModal(NombreModal) {
+
+        $("#" + NombreModal).hide();
+    }
+
+    function Agregar() {
+
+
+        var cant = $("#Cantidad").val();
+
+        if (cant == "") {
+            SweetAlertMensaje("Cantidad","Ingrese la cantidad",'warning');
+            return;
+        }
+
+        Producto.Cantidad = parseInt(cant);
+        Producto.Precio = parseFloat(Producto.Precio.toString().replace(',', '.'));
+       
+        
+
+        if (Producto.Cantidad > Producto.Stock) {
+            SweetAlertMensaje("Stok del Producto ", "Stock del Producto Insuficiente!", 'warning');
+            return;
+        }
+
+        var estado = 1;
+
+
+
+
+        for (var i = 0; i < ListaProductos.length; i++)
+        {
+            if (ListaProductos[i].ProductoID == Producto.ProductoID) {
+                estado = 0;
+
+                if ((parseInt(ListaProductos[i].Cantidad) + parseInt(cant)) > Producto.Stock) {
+                    SweetAlertMensaje("Stock Insuficiente", "Ya existe el Producto: " + Producto.NomProducto + ", La nueva cantidad supera al stock", "warning");
+                    return;
+                }
+                ListaProductos[i].Cantidad = parseInt(ListaProductos[i].Cantidad) + parseInt(cant);
+                ListaProductos[i].Total = (parseFloat(ListaProductos[i].Cantidad) * parseFloat(ListaProductos[i].Precio)).toFixed(2);
+                break;
+            }
+        }
+
+        if (estado == 1) {
+            Producto.Total = parseFloat(Producto.Cantidad) * parseFloat(Producto.Precio);
+            
+            ListaProductos.push(Producto);
+        }
+
+        ListaProductos = CalcularDatos(ListaProductos);
+
+        TableFacturar.clear().draw();
+        TableFacturar.rows.add(ListaProductos).draw();
+        $("#Cantidad").val('');
+        CerrarModal('ModalCantidad');
+
+    }
+
+    function CalcularDatos(ListaProductos) {
+        var sum = 0;
+        var iva = 0;
+        var total = 0;
+
+        if (ListaProductos.length > 0) {
+            $("#BtnGuardar").removeAttr('disabled');
+        } else {
+            $("#BtnGuardar").attr('disabled', 'disabled');
+        }
+
+        for (var i = 0; i < ListaProductos.length; i++) {
+            ListaProductos[i].Num = (i + 1);
+           
+            ListaProductos[i].Total = (parseFloat(ListaProductos[i].Cantidad) * parseFloat(ListaProductos[i].Precio)).toFixed(2);
+            sum += parseFloat(ListaProductos[i].Total);
+        }
+
+        sum = sum.toFixed(2);
+
+        iva = (sum * 0.12).toFixed(2);
+        total = (parseFloat(sum) + parseFloat(iva)).toFixed(2);
+
+        $("#subtotal").empty();
+        $("#total").empty();
+        $("#iva").empty();
+
+        $("#subtotal").append('$ ' + sum);
+        $("#total").append('$ ' + total);
+        $("#iva").append('$ ' + iva);
+
+        return ListaProductos;
+
+
+
+    }
+
+    function Cancelar() {
+        window.location.href = '@Url.Action("Index", "Inicio")'
+    }
+
+    function Clientes() {
+        CargarClientes();
+        $("#ModalClientes").show();
+    }
+    function Productos() {
+        CargarProductos();
+        $("#ModalProductos").show();
+    }
+
+    function CerrarCantidad() {
+        CerrarModal('ModalCantidad');
+        Productos();
+    }
+
+    $(document).ready(function () {
+
+        $("#BtnGuardar").attr('disabled', 'disabled');
+        $("#btnProductos").attr('disabled', 'disabled');
+
+        TableCliente = $('#TableClientes').DataTable({
+            ordering: false,
+            data: [],
+            columns:
+                [
+                    { "data": "Num" },
+                    { "data": "ClienteID", visible: false },
+                    { "data": "Cedula" },
+                    { "data": "NomCliente" },
+                    { "data": "Telefono" },
+                    { "data": "Direccion" },
+                ],
+        });
+
+        $("#TableClientes tbody").on("click", "tr", function () {
+            var data = TableCliente.row(this).data();
+            $("#btnProductos").removeAttr('disabled');
+            Cliente = data;
+
+
+            $("#RUC").empty();
+            $("#CLIENTE").empty();
+            $("#DIRECCION").empty();
+            $("#TELEFONO").empty();
+
+            $("#RUC").append(Cliente.Cedula);
+            $("#CLIENTE").append(Cliente.NomCliente);
+            $("#DIRECCION").append(Cliente.Direccion);
+            $("#TELEFONO").append(Cliente.Telefono);
+
+            CerrarModal('ModalClientes');
+        });
+
+
+        TableProducto = $('#TableProductos').DataTable({
+            ordering: false,
+            data: [],
+            columns:
+                [
+                    { "data": "Num" },
+                    { "data": "ProductoID", visible: false },
+                    { "data": "NomProducto" },
+                    { "data": "Stock" },
+                    { "data": "Precio" },
+
+                ],
+        });
+
+        $("#TableProductos tbody").on("click", "tr", function () {
+            var data = TableProducto.row(this).data();
+            Producto = data;
+            Producto.Precio = Producto.Precio.replace(',','.');
+            CerrarModal('ModalProductos');
+
+            if (CambiarProducto == 1) {
+                $("#ModalCantidad").show();
+                $("#Producto").val(data.NomProducto);
+                $("#Precio").val(data.Precio);
+                $("#Stock").val(data.Stock);
+                $("#Cantidad").focus();
+            } else {
+
+                for (var i = 0; i < ListaProductos.length; i++) {
+
+                    if (ListaProductos[i].ProductoID == AuxData.ProductoID) {
+                        Producto.Cantidad = ListaProductos[i].Cantidad;
+                        ListaProductos[i] = Producto;
+                    }
+                }
+                ListaProductos = CalcularDatos(ListaProductos);
+                TableFacturar.clear().draw();
+                TableFacturar.rows.add(ListaProductos).draw();
+                CambiarProducto = 1;
+            }
+        });
+
+
+        TableFacturar = $('#TablaFacturar').DataTable({
+            ordering: false,
+            searching: false,
+            lengthChange: false,
+            info: false,
+            paging: false,
+            data: [],
+            columnDefs: [
+                {
+                    "data": null, targets: 0, render: function (data) {
+                        return ` <i id="btnEditar" style="color:darkred" class="btn glyphicon glyphicon-edit" > </i> <i id="btnRemover" style="color:darkred" class="btn glyphicon glyphicon-trash"> </i>`;
+                    }
+                },
+                { "data": "Num", targets: 1, className: 'text-center' },
+                { "data": "ProductoID", targets: 2, className: 'text-center' },
+                { "data": "NomProducto", targets: 3, className: 'text-center' },
+                { "data": "Cantidad", targets: 4, className: 'text-center' },
+                { "data": "Precio", targets: 5, className: 'text-center' },
+                { "data": "Total", targets: 6, className: 'text-center' },
+            ]
+        });
+
+        $("#TablaFacturar tbody").on("click", "i", function () {
+            let Origen = $(this).attr("id");
+            switch (Origen) {
+                case "btnRemover": {
+                    let Datos = TableFacturar.row($(this).parents("tr")).data();
+
+                    swal({
+                        title: "Desea Borrar?",
+                        text: "Borrar Producto: " + Datos.NomProducto,
+                        icon: "warning",
+                        buttons: true,
+                        dangerMode: true,
+                    })
+                        .then((willDelete) => {
+                            if (willDelete) {
+                                var datosNuevos = [];
+                                for (var i = 0; i < ListaProductos.length; i++) {
+                                    if (ListaProductos[i].ProductoID != Datos.ProductoID) {
+                                        datosNuevos.push(ListaProductos[i]);
+                                    }
+                                }
+
+                                ListaProductos = CalcularDatos(datosNuevos);
+                                TableFacturar.clear().draw();
+                                TableFacturar.rows.add(ListaProductos).draw();
+
+                                swal("Producto Borrado..", {
+                                    icon: "success",
+                                });
+                            }
+                        });
+
+                    break;
+                }
+                case "btnEditar": {
+                    let Datos = TableFacturar.row($(this).parents("tr")).data();
+                    CambiarProducto = 0;
+                    Productos();
+                    AuxData = Datos;
+
+                    break;
+                }
+            }
+        });
+
+
+        CargarProductos();
+        CargarClientes();
+
+    });
+
+
+    function CargarProductos() {
+        $.ajax({
+            url: "@Url.Content("~/Factura/ObtenerProductos")",
+            dataType: 'json',
+            type: 'POST',
+            success: function (data) {
+                if (data.Error != null ) {
+                    SweetAlertMensaje("Error", data.Error, "error");
+                } else {
+                    TableProducto.clear().draw();
+                    TableProducto.rows.add(data.Datos).draw();
+                }
+            },
+            error: function (err) {
+                SweetAlertMensaje("Error","Err or al Cargar Productos","error");
+            }
+        });
+    }
+
+    function CargarClientes() {
+        $.ajax({
+            url: "@Url.Content("~/Factura/ObtenerClientes")",
+            dataType: 'json',
+            type: 'POST',
+            success: function (data) {
+                if (data.Error != null ) {
+                    SweetAlertMensaje("Error", data.Error, "error");
+                } else {
+                    TableCliente.clear().draw();
+                    TableCliente.rows.add(data.Datos).draw();
+                }
+            },
+            error: function (err) {
+                SweetAlertMensaje("Error","Error al Cargar Productos","error");
+            }
+        });
+    }
+
+    function GuardarFactura() {
+
+        $.ajax({
+            url: "@Url.Content("~/Factura/GuardarFactura")",
+            dataType: 'json',
+            type: 'POST',
+            data: {
+                "cliente": Cliente,
+                "productos": ListaProductos
+            },
+            success: function (data) {
+                console.log(data)
+                if (data.Error != null ) {
+                    SweetAlertMensaje("Error", data.Error, "error");
+                } else {
+
+                    swal("Guardado", "Factura Guardada exitosamente!", "success").then((willDelete) => {
+                        if (willDelete) {
+                            location.reload();
+                        }
+                    });;
+                }
+            },
+            error: function (err) {
+                SweetAlertMensaje("Error","Error al Cargar Productos","error");
+            }
+        });
+    }
+
+</script>

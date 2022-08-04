@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "Listado de Facturas";
+}
+
+
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-6">
+        <div class="text-center">  <h2 style="color:black"> <strong> Listado de Facturas </strong> </h2>    </div>
+        <div class="table-responsive">
+            <table id="TableFactura" class="table table-striped" width="100%" style="background-color:darkgray">
+                <thead style="background-color: #000000; color: white;">
+                    <tr>
+                        <th class="text-center"> Detalle  </th>
+                        <th class="text-center"> Factura </th>
+                        <th class="text-center"> Nº/C </th>
+                        <th class="text-center"> Cliente </th>
+                        <th class="text-center"> Fecha </th>
+                        <th class="text-center"> Total $ </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+       
+    </div>
+</div>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.js"></script>
+
+<script type="text/javascript">
+
+    $.extend(true, $.fn.dataTable.defaults, {
+        "language": {
+            "decimal": ",",
+            "thousands": ".",
+            "info": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+            "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+            "infoPostFix": "",
+            "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+            "loadingRecords": "Cargando...",
+            "lengthMenu": "Mostrar _MENU_ registros",
+            "paginate": {
+                "first": "Primero",
+                "last": "Último",
+                "next": "Siguiente",
+                "previous": "Anterior"
+            },
+            "processing": "Procesando...",
+            "search": "Buscar:",
+            "searchPlaceholder": "Término de búsqueda",
+            "zeroRecords": "No se encontraron resultados",
+            "emptyTable": "Ningún dato disponible en esta tabla",
+            "aria": {
+                "sortAscending": ": Activar para ordenar la columna de manera ascendente",
+                "sortDescending": ": Activar para ordenar la columna de manera descendente"
+            },
+            //only works for built-in buttons, not for custom buttons
+            "buttons": {
+                "create": "Nuevo",
+                "edit": "Cambiar",
+                "remove": "Borrar",
+                "copy": "Copiar",
+                "csv": "fichero CSV",
+                "excel": "tabla Excel",
+                "pdf": "documento PDF",
+                "print": "Imprimir",
+                "colvis": "Visibilidad columnas",
+                "collection": "Colección",
+                "upload": "Seleccione fichero...."
+            },
+            "select": {
+                "rows": {
+                    _: '%d filas seleccionadas',
+                    0: 'clic fila para seleccionar',
+                    1: 'una fila seleccionada'
+                }
+            }
+        }
+    });
+    var Table;
+
+    $(document).ready(function () {
+        Table = $('#TableFactura').DataTable({
+            ordering: false,
+            data: [],
+            columnDefs: [
+                {
+                    "data": null, targets: 0, render: function (data) {
+                        return ` <i id="VerDetalle" class="btn glyphicon glyphicon-shopping-cart" style="color:#0b69ad"></i>`;
+                    }
+                },
+
+                { "data": "Id_Venta", targets: 1, className:"text-center"  },
+                { "data": "Cedula", targets: 2, className: "text-center" },
+                { "data": "Cliente", targets: 3, className: "text-center" },
+                { "data": "Fecha", targets: 4, className: "text-center" },
+                { "data": "Total", targets: 5, className: "text-center" },
+
+            ]
+        });
+
+        $("#TableFactura tbody").on("click", "i", function () {
+            let Origen = $(this).attr("id");
+            switch (Origen) {
+                case "VerDetalle": {
+                    let Datos = Table.row($(this).parents("tr")).data();
+                    
+                    var url = '@Url.Action("DetalleFactura", "Factura", new { IDFactura = "__id__"})';
+                    window.location.href = url.replace('__id__', Datos.Id_Venta)
+                    break;
+                }
+            }
+        });
+
+        ListarFacturas();
+
+    });
+
+    function SweetAlertMensaje(Titulo, Texto, Icono) {
+        swal({
+            title: Titulo,
+            text: Texto,
+            icon: Icono,
+            dangerMode: true,
+        });
+
+    }
+
+    function ListarFacturas() {
+        $.ajax({
+            url: "@Url.Content("~/Inicio/ListarFacturas")",
+            dataType: 'json',
+            type: 'POST',
+            success: function (data) {
+                if (data.Error != null ) {
+                    SweetAlertMensaje("Error", data.Error, "error");
+                } else {
+                    Table.clear().draw();
+                    Table.rows.add(data.Datos).draw();
+                }
+            },
+            error: function (err) {
+                SweetAlertMensaje("Error","Error al Cargar Productos","error");
+            }
+        });
+
+    }
+
+</script>

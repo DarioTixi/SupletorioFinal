@@ -1,0 +1,492 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Modal Agregar Producto -->
+<div class="modal" id="ModalAddProducto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Agregar Producto </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalAddProducto')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+
+                        <div class="form-group">
+                            <label class="control-label"> Producto: </label>
+                            <input type="text" class="form-control"maxlength="40" id="Producto1" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"> Stock: </label>
+                            <input class="form-control" id="Stock1" min="1"
+                                   onkeypress="return event.charCode >= 48"
+                                   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                   type="number"
+                                   maxlength="4" />
+                           @* <input type="text" class="form-control" id="" value="" />*@
+                        </div>
+                        <div class="form-group">
+                            <label> Precio: </label>
+                            <input type="text" class="form-control" id="Precio1" value="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Agregar()" class="btn btn-success" data-dismiss="modal">AgregarProducto</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal EditarProducto -->
+<div class="modal" id="ModalProducto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Editar Producto </strong>  </h5>
+                <button type="button" onclick="CerrarProducto()" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="form-group">
+                            <label class="control-label"> ID: </label>
+                            <input type="text" class="form-control" disabled id="IdProduct" value="" />
+                        </div>  <div class="form-group">
+                            <label class="control-label"> Producto: </label>
+                            <input type="text" class="form-control" maxlength="40" id="Producto" value="" />
+                        </div>
+                                <div class="form-group">
+                                    <label class="control-label"> Stock: </label>
+
+                                    <input class="form-control" id="Stock" min="1"
+                                           onkeypress="return event.charCode >= 48"
+                                           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                           type="number"
+                                           maxlength="4" />
+
+                                    @*<input type="text" class="form-control" id="Stock" value="" />*@
+                                </div>
+                        <div class="form-group">
+                            <label> Precio: </label>
+                            <input type="text" class="form-control" id="Precio" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label> Estado: </label>
+                            <input type="number" min="0" max="1" class="form-control" id="Estado" value="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Editar()" class="btn btn-success" data-dismiss="modal">Editar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal EliminarProducto -->
+<div class="modal" id="ModalEliminarProducto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"> <strong> Eliminar Producto </strong>  </h5>
+                <button type="button" onclick="CerrarModal('ModalEliminarProducto')" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="form-group">
+                            <label class="control-label"> ID: </label>
+                            <input type="text" class="form-control" disabled id="IdProduct2" value="" />
+                        </div>  <div class="form-group">
+                            <label class="control-label"> Producto: </label>
+                            <input type="text" class="form-control" disabled id="Producto2" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"> Stock: </label>
+                            <input type="text" class="form-control" disabled id="Stock2" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label> Precio: </label>
+                            <input type="text" class="form-control" disabled id="Precio2" value="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="Eliminar()" class="btn btn-success" data-dismiss="modal">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (ViewBag.UsuarioAdm == "0")
+{
+    <button class="btn " style="margin-top:20px" onclick="MostrarModalAgregar()">Agregar Producto</button>
+}
+
+
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-6">
+        <div class="text-center">  <h2 style="color:black"> <strong> Productos </strong> </h2>    </div>
+        <div class="table-responsive">
+            <table id="TableProductos" class="table table-striped" width="100%" style="background-color:darkgray">
+                <thead style="background-color: #000000; color: white;">
+                    <tr>
+                        <th>#</th>
+                        <th>ProductoID</th>
+                        <th>Estado</th>
+                        <th>Producto</th>
+                        <th>Stock</th>
+                        <th>Precio U.</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.11.3/datatables.min.js"></script>
+<script type="text/javascript">
+
+    $.extend(true, $.fn.dataTable.defaults, {
+        "language": {
+            "decimal": ",",
+            "thousands": ".",
+            "info": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+            "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+            "infoPostFix": "",
+            "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+            "loadingRecords": "Cargando...",
+            "lengthMenu": "Mostrar _MENU_ registros",
+            "paginate": {
+                "first": "Primero",
+                "last": "Último",
+                "next": "Siguiente",
+                "previous": "Anterior"
+            },
+            "processing": "Procesando...",
+            "search": "Buscar:",
+            "searchPlaceholder": "Término de búsqueda",
+            "zeroRecords": "No se encontraron resultados",
+            "emptyTable": "Ningún dato disponible en esta tabla",
+            "aria": {
+                "sortAscending": ": Activar para ordenar la columna de manera ascendente",
+                "sortDescending": ": Activar para ordenar la columna de manera descendente"
+            },
+            //only works for built-in buttons, not for custom buttons
+            "buttons": {
+                "create": "Nuevo",
+                "edit": "Cambiar",
+                "remove": "Borrar",
+                "copy": "Copiar",
+                "csv": "fichero CSV",
+                "excel": "tabla Excel",
+                "pdf": "documento PDF",
+                "print": "Imprimir",
+                "colvis": "Visibilidad columnas",
+                "collection": "Colección",
+                "upload": "Seleccione fichero...."
+            },
+            "select": {
+                "rows": {
+                    _: '%d filas seleccionadas',
+                    0: 'clic fila para seleccionar',
+                    1: 'una fila seleccionada'
+                }
+            }
+        }
+    });
+    var Table;
+    var Producto = {};
+    var CambiarProducto = 1;
+    var ListaProductos = [];
+    $(document).ready(function () {
+        $('#Precio1').mask('0000.00', { reverse: true });
+        $('#Precio').mask('0000.00', { reverse: true });
+        
+
+        TableProducto = $('#TableProductos').DataTable({
+            ordering: false,
+            data: [],
+            columns:
+                [
+                    { "data": "Num" },
+                    { "data": "ProductoID", visible: false },
+                    { "data": "Estado", visible: false },
+                    { "data": "NomProducto" },
+                    { "data": "Stock" },
+                    { "data": "Precio" },
+                    {
+                        "data": null, "visible": false,
+                        "render": function (data, type, row) {
+                            if (data.Estado == 1) {
+                                return `<span class="badge bg-info">Activo</span>`;
+                            }
+                            return `<span class="badge bg-danger">Inactivo</span>`
+                        }
+
+                    },
+                    {
+                        "data": null,
+                        "render": function (data) {
+                            if ("@ViewBag.UsuarioAdm" == "0") {
+                                if (data.Estado == 1) {
+                                    return `<button id="editarProducto"  class="btn glyphicon glyphicon-pencil" style="color:#0b69ad"></button>` +
+                                        `<button id="eliminarProducto" class="btn glyphicon glyphicon-trash" style="color:#0b69ad"></button>`
+                                }
+                                return `<button id="editarProducto"  class="btn glyphicon glyphicon-pencil" style="color:#0b69ad"></button>` +
+                                    `<button id="eliminarProducto" disabled class="btn glyphicon glyphicon-trash" style="color:#0b69ad"></button>`
+
+                            } else {
+                                return `<button id="editarProducto" disabled  class="btn glyphicon glyphicon-pencil" style="color:#0b69ad"></button>` +
+                                    `<button id="eliminarProducto" disabled class="btn glyphicon glyphicon-trash" style="color:#0b69ad"></button>`
+
+                            }
+
+
+                        }
+                    },
+
+                ],
+
+        });
+
+
+        $("#TableProductos tbody").on("click", "#editarProducto", function () {
+            var data = TableProducto.row($(this).parents('tr')).data();
+            Producto = data;
+            Producto.Precio = Producto.Precio.replace(',', '.');
+
+                $("#ModalProducto").show();
+               $("#IdProduct").val(data.ProductoID);
+                $("#Producto").val(data.NomProducto);
+                $("#Precio").val(data.Precio);
+                $("#Stock").val(data.Stock);
+                $("#Estado").val(data.Estado);
+
+        });
+
+
+        $("#TableProductos tbody").on("click", "#eliminarProducto", function () {
+            var data = TableProducto.row($(this).parents('tr')).data();
+            Producto = data;
+            Producto.Precio = Producto.Precio.replace(',', '.');
+            console.log(Producto)
+
+
+            $("#ModalEliminarProducto").show();
+
+               $("#IdProduct2").val(data.ProductoID);
+                $("#Producto2").val(data.NomProducto);
+                $("#Precio2").val(data.Precio);
+                $("#Stock2").val(data.Stock);
+
+        });
+
+        CargarProductos();
+
+    });
+
+
+
+
+    function SweetAlertMensaje(Titulo, Texto, Icono) {
+        swal({
+            title: Titulo,
+            text: Texto,
+            icon: Icono,
+            dangerMode: true,
+        });
+
+    }
+
+    function Agregar() {
+        Producto = {};
+
+       var precio = $("#Precio1").val();
+       var stock = $("#Stock1").val();
+       var producto = $("#Producto1").val();
+
+       if (precio == "") {
+           SweetAlertMensaje("Precio", "Ingrese el precio", 'warning');
+           return;
+       }
+       if (stock == "") {
+           SweetAlertMensaje("Stock", "Ingrese el stock", 'warning');
+           return;
+       }
+       if (producto == "") {
+           SweetAlertMensaje("Producto", "Ingrese el producto", 'warning');
+           return;
+       }
+
+       Producto.NomProducto = producto;
+       Producto.Stock = parseInt(stock);
+       Producto.Precio = parseFloat(precio.toString().replace(',', '.'));
+
+        $.ajax({
+            url: "@Url.Content("~/Producto/AgregarProducto")",
+            dataType: 'json',
+             type: 'POST',
+             data: Producto ,
+            success: function (data) {
+                console.log(data)
+                if (!data.Datos) {
+                    return SweetAlertMensaje("Error", data.Error, "error");
+                 }
+
+                 CerrarModal("ModalAddProducto");
+                 CargarProductos();
+                 return SweetAlertMensaje("Producto", "Se agrego el producto", "success");
+            },
+             error: function (err) {
+                console.log('err', err)
+                SweetAlertMensaje("Error","Error al Editar Productos","error");
+            }
+        });
+    }
+
+    function Eliminar(){
+
+        console.log(Producto);
+         $.ajax({
+            url: "@Url.Content("~/Producto/EliminarProducto")",
+            dataType: 'json',
+             type: 'POST',
+             data: Producto ,
+             success: function (data) {
+
+                if (data.Datos == false) {
+                 return   SweetAlertMensaje("Error", data.Error, "error");
+                 }
+
+                 CerrarModal("ModalEliminarProducto");
+                 CargarProductos();
+
+            },
+             error: function (err) {
+                console.log('err', err)
+                SweetAlertMensaje("Error","Error al Editar Productos","error");
+            }
+        });
+
+
+    }
+
+    function MostrarModalAgregar() {
+        $('#ModalAddProducto').show();
+    }
+
+    function Editar() {
+
+
+        var precio = $("#Precio").val();
+        var id = $("#IdProduct").val();
+        var stock= $("#Stock").val();
+        var producto= $("#Producto").val();
+        var estado= $("#Estado").val();
+
+        if (precio == "") {
+            SweetAlertMensaje("Precio", "Ingrese el precio", 'warning');
+            return;
+        }
+        if (stock == "") {
+            SweetAlertMensaje("Stock", "Ingrese el stock", 'warning');
+            return;
+        }
+         if (producto == "") {
+            SweetAlertMensaje("Producto", "Ingrese el producto", 'warning');
+            return;
+        }
+
+        Producto.ProductoID= id;
+        Producto.NomProducto= producto;
+        Producto.Stock = parseInt(stock);
+        Producto.Estado = parseInt(estado);
+        Producto.Precio = parseFloat(precio.toString().replace(',', '.'));
+        console.log(Producto);
+         $.ajax({
+            url: "@Url.Content("~/Producto/EditarProducto")",
+            dataType: 'json',
+             type: 'POST',
+             data: Producto ,
+             success: function (data) {
+                 console.log('succ', data)
+
+                if (data.Datos == false) {
+                    return SweetAlertMensaje("Error", data.Error, "error");
+                 }
+
+                 CerrarProducto();
+            },
+             error: function (err) {
+                console.log('err', err)
+                SweetAlertMensaje("Error","Error al Editar Productos","error");
+            }
+        });
+
+
+
+
+
+    }
+
+    function CerrarProducto() {
+        CerrarModal('ModalProducto');
+        CargarProductos();
+    }
+
+
+
+    function CerrarModal(NombreModal) {
+
+        $("#" + NombreModal).hide();
+    }
+
+    function CargarProductos() {
+        $.ajax({
+            url: "@Url.Content("~/Producto/ObtenerProductos")",
+            dataType: 'json',
+            type: 'POST',
+            success: function (data) {
+                if (data.Error != null ) {
+                    SweetAlertMensaje("Error", data.Error, "error");
+                } else {
+                    TableProducto.clear().draw();
+                    TableProducto.rows.add(data.Datos).draw();
+                }
+            },
+            error: function (err) {
+                SweetAlertMensaje("Error","Error al Cargar Productos","error");
+            }
+        });
+    }
+
+
+</script>
