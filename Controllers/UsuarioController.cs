@@ -78,21 +78,28 @@ namespace FacturaWeb.Controllers
             if (!new Regex(@"^" + lowerCaseRegex + "").IsMatch(usuario.password))
             {
                 respuesta.Datos = false;
+                respuesta.Error = "Debe tener una letra minuscula";
                 return JsonConvert.SerializeObject(respuesta);
             }
             if (!new Regex(@"^" + upperCaseRegex + "").IsMatch(usuario.password))
             {
                 respuesta.Datos = false;
+                respuesta.Error = "Debe tener una letra mayuscula";
+
                 return JsonConvert.SerializeObject(respuesta);
             }
             if (!new Regex(@"^" + symbolsRegex + "").IsMatch(usuario.password))
             {
                 respuesta.Datos = false;
+                respuesta.Error = "Debe tener una caracter especial";
+
                 return JsonConvert.SerializeObject(respuesta);
             }
             if (!new Regex(@"^" + numericRegex + "").IsMatch(usuario.password))
             {
                 respuesta.Datos = false;
+                respuesta.Error = "Debe tener un numero";
+
                 return JsonConvert.SerializeObject(respuesta);
             }
 

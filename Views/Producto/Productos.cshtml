@@ -137,7 +137,7 @@
 
 @if (ViewBag.UsuarioAdm == "0")
 {
-    <button class="btn " style="margin-top:20px" onclick="MostrarModalAgregar()">Agregar Producto</button>
+    <button class="btn btn-success" style="margin-top:20px" onclick="MostrarModalAgregar()">Agregar Producto</button>
 }
 
 
@@ -347,8 +347,9 @@
        }
 
        Producto.NomProducto = producto;
-       Producto.Stock = parseInt(stock);
-       Producto.Precio = parseFloat(precio.toString().replace(',', '.'));
+        Producto.Stock = parseInt(stock);
+        console.log(Producto.Stock)
+       Producto.Precio = parseFloat(precio.toString());
 
         $.ajax({
             url: "@Url.Content("~/Producto/AgregarProducto")",
@@ -384,7 +385,9 @@
 
                 if (data.Datos == false) {
                  return   SweetAlertMensaje("Error", data.Error, "error");
-                 }
+
+                }
+                 SweetAlertMensaje("Producto", 'Se Elimino el Producto', "success");
 
                  CerrarModal("ModalEliminarProducto");
                  CargarProductos();
@@ -442,6 +445,8 @@
                 if (data.Datos == false) {
                     return SweetAlertMensaje("Error", data.Error, "error");
                  }
+
+                 SweetAlertMensaje("Producto", 'Se Edito el Producto', "success");
 
                  CerrarProducto();
             },

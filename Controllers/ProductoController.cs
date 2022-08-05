@@ -37,6 +37,8 @@ namespace FacturaWeb.Controllers
                 SqlCommand command = new SqlCommand("SP_AgregarProducto", connection);
                 command.CommandType = CommandType.StoredProcedure;
 
+
+
                 command.Parameters.AddWithValue("@Producto", producto.NomProducto);
                 command.Parameters.AddWithValue("@Stock", producto.Stock);
                 command.Parameters.AddWithValue("@Precio", producto.Precio);

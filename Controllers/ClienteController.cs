@@ -78,6 +78,7 @@ namespace FacturaWeb.Controllers
                 command.Parameters.AddWithValue("@Apellido ", cliente.NomCliente.Split(' ')[1]);
                 command.Parameters.AddWithValue("@Telefono ", cliente.Telefono                );
                 command.Parameters.AddWithValue("@Direccion", cliente.Direccion);
+                command.Parameters.AddWithValue("@Estado", cliente.Estado);
                 connection.Open();
                 int ID = Convert.ToInt32(command.ExecuteNonQuery());
 

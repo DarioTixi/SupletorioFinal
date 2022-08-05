@@ -131,32 +131,33 @@
         <div class="col-12">
             <div class="card" style="margin-top: 20px;">
                 <div class="card-body p-0">
-                    <div class="row p-5">
-                        <div class="col-md-6">
-                            <img style="width:200px; height:150px" src="~/Content/Img/Logo2.png">
-                        </div>
-                        <div class="col-md-6 text-right">
-                             <p class="text-muted text-capitalize">@DateTime.Now.ToLongDateString()</p>
-                        </div>
+                    <div class="row p-5" style="text-align:left">
+                        <p class="text-muted text-capitalize">@DateTime.Now.ToLongDateString()</p>
                     </div>
                     <hr class="my-5">
                     <div class="row pb-5 p-5">
-                        <div class="col-md-6 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-12 col-sm-12">
                             <p class="font-weight-bold mb-4"><strong>Información del Cliente </strong> </p>
-                          <strong>Cedula:</strong> <p id="RUC" class="mb-1"></p>
-                          <strong>Nombres y Apellidos:</strong><p id="CLIENTE" class="mb-1"></p>
-                          <strong>   Dirección:</strong> <p id="DIRECCION" class="mb-1"></p>
-                          <strong>Teléfono:</strong><p id="TELEFONO" class="mb-1"></p>
+                            <strong>Cedula:</strong> <p id="RUC" class="mb-1"></p>
+                            <strong>Nombres y Apellidos:</strong><p id="CLIENTE" class="mb-1"></p>
+                            <strong>   Dirección:</strong> <p id="DIRECCION" class="mb-1"></p>
+                            <strong>Teléfono:</strong><p id="TELEFONO" class="mb-1"></p>
 
                             <p class="mb-1"><button type="button" onclick="Clientes()" class="btn btn-success"> <i class="glyphicon glyphicon-user"></i> Clientes </button> </p>
                         </div>
 
-                        <div class="col-md-6 col-xs-12 col-sm-12 text-right">
+                        <div class="col-md-4">
+                            <img style="width:200px; height:150px; opacity:0.5" src="~/Content/Img/Logo2.png">
+                          
+                        </div>
+
+
+                        <div class="col-md-4 col-xs-12 col-sm-12 text-left">
                             <p class="font-weight-bold mb-4"><strong> Información General </strong></p>
-                            <p class="mb-1"><span ><strong> RUC:</strong> </span>1700000001</p>
-                            <p class="mb-1"><span ><strong>Nombre:</strong> </span>Comercial Basantes</p>
-                            <p class="mb-1"><span ><strong>Dirección:</strong> </span> Isla Santiago, Quito 170138</p>
-                            <p class="mb-1"><span ><strong>Teléfono:</strong> </span> 0983475261</p>
+                            <p class="mb-1"><span><strong> RUC:</strong> </span>1700000001</p>
+                            <p class="mb-1"><span><strong>Nombre:</strong> </span>Comercial Basantes</p>
+                            <p class="mb-1"><span><strong>Dirección:</strong> </span> Isla Santiago, Quito 170138</p>
+                            <p class="mb-1"><span><strong>Teléfono:</strong> </span> 0983475261</p>
                             <p class="mb-1">  <button id="btnProductos" onclick="Productos()" type="button" class="btn btn-success"> <i class="glyphicon glyphicon-folder-open"></i> Productos </button> </p>
                         </div>
                     </div>

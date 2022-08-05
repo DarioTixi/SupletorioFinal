@@ -73,10 +73,10 @@
                         <div class="form-group">
                             <label class="control-label"> Id: </label>
 
-                            <input type="text" class="form-control" id="Id2" value="" />
+                            <input disabled type="text" class="form-control" id="Id2" value="" />
                         </div>
 
-                        
+
 
                         <div class="form-group">
                             <label class="control-label"> Cédula: </label>
@@ -92,7 +92,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label"> Nombre: </label>
+                            <label class="control-label"> Nombre y Apellido: </label>
                             <input type="text" class="form-control" maxlength="40" id="Nombre2" value="" />
                         </div>
                         <div class="form-group">
@@ -108,9 +108,12 @@
                         </div>
                         <div class="form-group">
                             <label> Dirección: </label>
-                            <input type="text" class="form-control"  maxlength="80" id="Direccion2" value="" />
+                            <input type="text" class="form-control" maxlength="80" id="Direccion2" value="" />
                         </div>
-
+                        <div class="form-group">
+                            <label> Estado: </label>
+                            <input type="number" min="0" max="1" class="form-control" id="Estado" value="" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -170,7 +173,7 @@
 
 @if (ViewBag.UsuarioAdm == "0")
 {
-    <button class="btn " style="margin-top:20px" onclick="MostrarModalAgregar()">Agregar Cliente</button>
+    <button class="btn btn-success" style="margin-top:20px" onclick="MostrarModalAgregar()">Agregar Cliente</button>
 }
 
 <div class="row">
@@ -318,6 +321,7 @@
             $("#Nombre2").val(data.NomCliente);
             $("#Direccion2").val(data.Direccion);
             $("#Telefono2").val(data.Telefono.trim());
+            $("#Estado").val(data.Estado);
 
         });
 
@@ -493,9 +497,10 @@
              data: Cliente ,
              success: function (data) {
 
-                 if (data.Error.length > 0) {
+                 if (!data.Datos) {
                  return   SweetAlertMensaje("Error", data.Error, "error");
                  }
+                 SweetAlertMensaje("Cliente", 'Se Elimino el Cliente', "success");
 
                  CerrarModal("ModalEliminarCliente");
                  CargarClientes();
@@ -529,6 +534,7 @@
         var nombre = $("#Nombre2").val();
         var telefono = $("#Telefono2").val();
         var direccion = $("#Direccion2").val();
+        var estado = $("#Estado").val();
 
         if (cedula == "" || nombre == "" || telefono == "" || direccion == "") {
             SweetAlertMensaje("Precio", "Uno o mas campos vacíos", 'warning');
@@ -538,6 +544,8 @@
         Cliente.NomCliente = nombre;
         Cliente.Telefono = telefono;
         Cliente.Direccion = direccion;
+        Cliente.Estado = estado;
+        
 
         console.log(Cliente);
          $.ajax({
@@ -552,6 +560,7 @@
                     return SweetAlertMensaje("Error", data.Error, "error");
                  }
 
+                 SweetAlertMensaje("Cliente", "Se edito el Cliente", "success");
                  CerrarModal("ModalEditarCliente");
                  CargarClientes();
             },

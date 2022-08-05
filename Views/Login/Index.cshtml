@@ -13,10 +13,10 @@
 </head>
 <body>
     <div class="card">
-        <div class="image-container"></div>
-        <div class="welcome">
-            <div class="oblique"> </div>
-            <p>Bienvenido</p>
+        <div class="image-container" ></div>
+        <div class="welcome" >
+            <div class="oblique" > </div>
+            <p style="background-color:black">Bienvenido</p>
         </div>
 
         <form id="loginForm">
@@ -30,7 +30,7 @@
                 <input type="password" id="password" placeholder="Contraseña">
                 <div class="focused-line"></div>
             </div>
-            <button type="button" onclick="Auth()">Iniciar Sesión</button>
+            <button style="background-color:black" type="button" class="btn btn-primary" onclick="Auth()">Iniciar Sesión</button>
         </form>
     </div>
 
@@ -42,15 +42,6 @@
         var Usuario = {};
         var email ;
         var password ;
-
-
-        //$("#loginForm").submit(function (event) {
-        //    console.log("entro al metodo")
-        //    //Auth();
-        //    //event.preventDefault();
-        //});
-
-
 
         function SweetAlertMensaje(Titulo, Texto, Icono) {
             swal({
